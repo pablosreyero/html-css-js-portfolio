@@ -1,0 +1,6 @@
+@media screen and (max-width: 1200px){ /* when the desktop-nav is lower than 1200 px is going to disappear*/
+    #desktop-nav {
+        display: none;
+    }
+    
+}
