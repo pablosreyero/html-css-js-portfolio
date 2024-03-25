@@ -210,7 +210,7 @@ section {
 
 /* BUTTONS */
 
-.button-container {
+.btn-container {
     display: flex;
     justify-content: center;
     gap: 1rem;
