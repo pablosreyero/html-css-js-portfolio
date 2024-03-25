@@ -20,41 +20,68 @@
             </ul>
         </div>
     </nav>
-        <nav id="hamburger-nav">
-            <div class="logo">Pablo Suárez</div>
-            <div class="hamburger-menu">
-                <div class="hamburger-icon" onclick="toggleMenu()">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-                <div class="menu-links">
-                    <li><a href="#about" onclick="toggleMenu()" >About</a></li>
-                    <li><a href="#experience" onclick="toggleMenu()" >Experience</a></li>
-                    <li><a href="#projects" onclick="toggleMenu()" >Project</a></li>
-                    <li><a href="#contact" onclick="toggleMenu()" >Contact</a></li>
-                </div>
+    <nav id="hamburger-nav">
+        <div class="logo">Pablo Suárez</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
-        </nav>
-        <section id="profile">
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()" >About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()" >Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()" >Project</a></li>
+                <li><a href="#contact" onclick="toggleMenu()" >Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/IMG_2631.png" alt="Pablo Suarez profile picture" / >
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1"> Hello, I'm </p>
+            <h1 class="title"> Pablo Suárez</h1>
+            <p class="section__text__p2"> Telecommunications Engineer </p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/Pablo_Curriculum.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+        
+        </div>
+        <div id="socials-container">
+            <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href='https://www.linkedin.com/in/pablosuarezreyero/'" / >
+            <img src="./assets/github.png" alt="My GitHub profile" class="icon" onclick="location.href='https://github.com/pablosreyero'" / >
+        </div>
+    </section>
+    <section id="abou">
+        <p class="section__text__p1"> Get To Know More</p>
+        <h1 class="title"> About Me</h1>
+        <div class="section-container">
             <div class="section__pic-container">
-                <img src="./assets/IMG_2631.png" alt="Pablo Suarez profile picture" / >
+                <img src="./assets/about-pic.png" alt="Profile picture" class="about-pic" / >
             </div>
-            <div class="section__text">
-                <p class="section__text__p1"> Hello, I'm </p>
-                <h1 class="title"> Pablo Suárez</h1>
-                <p class="section__text__p2"> Telecommunications Engineer </p>
-                <div class="btn-container">
-                    <button class="btn btn-color-2" onclick="window.open('./assets/Pablo_Curriculum.pdf')">Download CV</button>
-                    <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="Experience icon" class="icon" / >
+                        <h3>Experience</h3>
+                        <p>1 year <br /> RAN Innovation Analyst and R&D staff member </p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="Education icon" class="icon" / >
+                        <h3>Education</h3>
+                        <p>B.Sc in Telecommunications Engineering<br /> UCM & EPFL </p>
+                    </div>
                 </div>
-            
+                <div class="text-container">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil ipsam, fuga minima distinctio commodi facilis inventore aperiam asperiores alias tempora explicabo architecto, ut sit? Unde rem numquam consequuntur non, placeat at adipisci cumque libero expedita dolorem dolorum culpa debitis aut molestias doloremque quidem corporis sunt quia obcaecati, nisi quaerat earum!</p>
+                </div>
             </div>
-            <div id="socials-container">
-                <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href='https://www.linkedin.com/in/pablosuarezreyero/'" / >
-                <img src="./assets/github.png" alt="My GitHub profile" class="icon" onclick="location.href='https://github.com/pablosreyero'" / >
-            </div>
-        </section>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" / >
+    </section>
     <script src="script.js"></script>
 </body>
 </html>
