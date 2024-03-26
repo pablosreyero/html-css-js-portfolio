@@ -161,7 +161,7 @@ section {
     display: flex;
     justify-content: center;
     gap: 5rem;
-    height: 80vh;
+    height: 90vh;
 }
 
 .section__pic-container {
@@ -256,7 +256,7 @@ section {
     gap: 1rem;
 }
 
-/* ABOUR SECTION */
+/* ABOUT SECTION */
 
 #about {
     position: relative;
