@@ -177,14 +177,14 @@ section {
 }
 
 .section__text p {
-    text-align: 600;
+    font-weight: 600;
 }
 
-.section_text__p1 {
+.section__text__p1 {
     text-align: center;
 }
 
-.section_text__p2 {
+.section__text__p2 {
     font-size: 1.75rem;
     margin-bottom: 1rem;
 }
