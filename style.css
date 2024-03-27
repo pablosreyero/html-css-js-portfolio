@@ -178,6 +178,8 @@ section {
 
 .section__text p {
     font-weight: 600;
+    width: 500px
+    /*line-height: 0.75em;*/
 }
 
 .section__text__p1 {
@@ -185,8 +187,9 @@ section {
 }
 
 .section__text__p2 {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     margin-bottom: 1rem;
+    /*line-height: 1rem;*/
 }
 
 .title {
@@ -307,3 +310,4 @@ section {
     width: 400px;
     margin: auto 0;
 }
+
